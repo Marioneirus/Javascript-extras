@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 250px;
+    display: block;
+    /* margin-top: 7rem; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: transparent;
+    border-radius: 120px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+#error {
+    color: red;
+    font-weight: 200;
+}
+
+
+#shop{
+    height: 100vh;
+}
+
+#calc{
+    height: 50vh;
+    text-align: center;
+    padding: 20px;
+}
+
+#calc button{
+    margin: 30px 20px;
+}
+
+
+#calc span{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
